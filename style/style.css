@@ -6,29 +6,49 @@
     padding: 0;
 }
 
-.container-large{
+li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+
+
+/* UTILIS */
+
+.flex{
+    display: flex;
+}
+
+.contaier-l{
     width: 100vw;
 }
 
-.conteiner-medium{
-    width: 70%;
-    margin: o auto;
+.container-m{
+    width: 60%;
+    margin: 20px auto;
 }
 
-.container.small{
-    width: 70%;
-    margin: 0 auto;
+.container-s{
+    width: 60%;
+    margin: 20px auto;
 }
+
+/* HEADER */
+
+header {
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+  }
+
+  /* JUMBOTRON */
+
+  
+
 
 /* DEBUG */
 
-.debug{
-    border: 4px dashed black;
-    background-color: lightseagreen;
-}
-.nav-debug{
-    border: 4px dashed black;
-    background-color: lightsalmon;
-
-}
+.debug {
+    border: 2px dashed black;
+  }
 
