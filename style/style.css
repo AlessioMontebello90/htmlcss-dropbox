@@ -24,4 +24,11 @@
 
 .debug{
     border: 4px dashed black;
+    background-color: lightseagreen;
 }
+.nav-debug{
+    border: 4px dashed black;
+    background-color: lightsalmon;
+
+}
+
