@@ -1,7 +1,27 @@
+/* GENERICS */
+
 *{
     box-sizing: border-box;
     margin:  0;
     padding: 0;
 }
 
+.container-large{
+    width: 100vw;
+}
 
+.conteiner-medium{
+    width: 70%;
+    margin: o auto;
+}
+
+.container.small{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* DEBUG */
+
+.debug{
+    border: 4px dashed black;
+}
