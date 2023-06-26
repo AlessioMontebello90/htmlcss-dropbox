@@ -50,7 +50,7 @@ header {
     font-size: 4rem;
   }
   
-  .jumbotron > .m-container:last-child {
+  .jumbotron > .container-m:last-child {
     display: flex;
   }
   
@@ -70,13 +70,13 @@ header {
   }
 
   .debug-nav{
-    border: 2px dashed rgb(157, 126, 126);
+    border: 2px dashed black;
   background-color: lightgreen;
   }
 
   .debug .container-m {
-    border: 2px dashed rgb(157, 126, 126);
-    background-color: brown;
+    border: 2px dashed black;
+    background-color: lightpink;
   }
   
   .debug .container-s {
