@@ -37,18 +37,50 @@ li {
 
 header {
     justify-content: space-between;
-    height: 50px;
+    height: 60px;
     align-items: center;
   }
 
   /* JUMBOTRON */
 
+  .jumbotron {
+    background-color: #b4d0e7;
+  }
+  .m-container > h1 {
+    font-size: 4rem;
+  }
   
+  .jumbotron > .m-container:last-child {
+    display: flex;
+  }
+  
+  .container-text {
+    width: 20%;
+  }
+  
+  .container-img {
+    width: 80%;
+  }
 
 
 /* DEBUG */
 
 .debug {
     border: 2px dashed black;
+  }
+
+  .debug-nav{
+    border: 2px dashed rgb(157, 126, 126);
+  background-color: lightgreen;
+  }
+
+  .debug .container-m {
+    border: 2px dashed rgb(157, 126, 126);
+    background-color: brown;
+  }
+  
+  .debug .container-s {
+    border: 2px dashed black;
+    background-color: lightsalmon;
   }
 
