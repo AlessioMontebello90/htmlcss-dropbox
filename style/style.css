@@ -144,6 +144,17 @@ header li {
 .horizontal-rate {
   border: 0.5px solid rgba(0, 0, 0, 0.3);
 }
+
+/* SECTION 2 CARD */
+
+.container-business-operation {
+  flex-wrap: wrap;
+}
+.business-operation {
+  width: calc(100% / 3);
+  gap: 2rem;
+}
+
 /* DEBUG */
 
 .debug {
