@@ -205,6 +205,10 @@ header li {
   background-color: #0061ff;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* DEBUG */
 
 .debug {
