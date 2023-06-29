@@ -295,3 +295,21 @@ h4 {
 .partner-text > * {
   padding: 20px 0;
 }
+
+/* features */
+
+.card-business-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 35px;
+}
+
+.card-business {
+  padding: 20px;
+  width: 33%;
+}
+
+.card-business > * {
+  padding-bottom: 25px;
+}
