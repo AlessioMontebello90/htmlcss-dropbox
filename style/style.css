@@ -232,3 +232,33 @@ h4 {
   padding-right: 40px;
   width: 250px;
 }
+
+.buynow a,
+.scopri {
+  color: #0061ff;
+  line-height: 23px;
+  font-size: 1rem;
+  margin: 0 5px;
+  text-decoration: underline;
+}
+
+.buynow p {
+  padding-bottom: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.card-body > .flex {
+  align-items: baseline;
+}
+
+.fa-check {
+  color: #0061ff;
+}
+
+.card-body h4:nth-child(odd) {
+  padding: 35px 0 25px;
+}
+
+.card-body p:nth-child(3) {
+  color: grey;
+}
