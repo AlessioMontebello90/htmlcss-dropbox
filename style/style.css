@@ -262,3 +262,19 @@ h4 {
 .card-body p:nth-child(3) {
   color: grey;
 }
+
+/* horizontal card plan */
+
+.card-big {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-big button {
+  width: 30%;
+  padding-top: 0;
+}
+
+.card-big ~ p {
+  width: 66%;
+}
